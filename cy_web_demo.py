@@ -38,7 +38,9 @@ def _launch_demo(args, model, processor):
     VOICE_LIST = ['Chelsie', 'Ethan']
     DEFAULT_VOICE = 'Chelsie'
 
-    default_system_prompt = 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+    # default_system_prompt = 'You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech.'
+    default_system_prompt = '请在接下来的5论对话中,我说中文,你说相应的英文,不要说额外的对话.'
+
 
     language = args.ui_language
 
